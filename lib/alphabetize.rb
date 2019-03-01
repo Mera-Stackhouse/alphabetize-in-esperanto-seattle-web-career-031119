@@ -1,7 +1,3 @@
-# require "pry"
-
-# arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi"]
-# greetings = ["ŝĝĉĥŭĵ", "ŝĝĉĥŭĉ", "ŝĝĉĥŭĥ"]
 
 def alphabetize(arr)
   hash = {}
