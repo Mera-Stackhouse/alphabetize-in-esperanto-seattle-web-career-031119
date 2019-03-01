@@ -16,23 +16,23 @@ def alphabetize(arr)
     key1 = key
     value.each_char {|x|
       if x == "ĉ"
-        hash2[key1] = hash[key1].gsub(x, 'c')
+        hash2[key1] = hash2[key1].gsub(x, 'c')
         binding.pry
       end
       if x == "ĝ"
-        hash2[key1] = hash[key1].gsub(x, 'g')
+        hash2[key1] = hash2[key1].gsub(x, 'g')
       end
       if x == "ĥ"
-        hash2[key1] = hash[key1].gsub(x, 'h')
+        hash2[key1] = hash2[key1].gsub(x, 'h')
       end
       if x == "ĵ"
-        hash2[key1] = hash[key1].gsub(x, 'j')
+        hash2[key1] = hash2[key1].gsub(x, 'j')
       end
       if x == "ŝ"
-        hash2[key1] = hash[key1].gsub(x, 's')
+        hash2[key1] = hash2[key1].gsub(x, 's')
       end
       if x == "ŭ"
-        hash2[key1] = hash[key1].gsub(x, 'u')
+        hash2[key1] = hash2[key1].gsub(x, 'u')
       end
     }
   }
