@@ -35,8 +35,9 @@ def alphabetize(arr)
       end
     }
   }
-  hash2.sort_by {|element|
-    element[value]
+  sorted = hash2.sort_by {|key, value|
+    value
+  }
   
   
   
