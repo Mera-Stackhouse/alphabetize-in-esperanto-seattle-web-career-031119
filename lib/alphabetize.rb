@@ -17,7 +17,8 @@ def alphabetize(arr)
     key1 = key
     value.each_char {|x|
       if x == "ĉ"
-        hash2[key1].sub!(x, 'c')
+        hash2[key1] = hash[key1].sub(x, 'c')
+        binding.pry
         hash2[key1].sub!(x, 'c')
       end
       if x == "ĝ"
