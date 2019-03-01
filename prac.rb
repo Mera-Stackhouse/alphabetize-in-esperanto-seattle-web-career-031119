@@ -16,4 +16,4 @@ hash = {"hello" => ""}
 puts hash["hello"].empty?
 
 
-"ĉu vi".sub(/[]/, '*')
+"ĉu vi".sub(/[ĉĝĥŝŭ]/, '*')
