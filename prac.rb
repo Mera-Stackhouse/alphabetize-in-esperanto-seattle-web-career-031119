@@ -11,6 +11,6 @@
 # word = "mera"
 
 
-hash = {"hello" => "_"}
+hash = {"hello" => ""}
 
-puts hash["hello"]
+puts hash["hello"].empty?
