@@ -10,7 +10,7 @@ def alphabetize(arr)
     hash[i] = element
     i += 1
   }
-  hash2 = hash
+  hash2 = {}
   hash.each {|key, value|
     hash2[key] = value
     key1 = key
