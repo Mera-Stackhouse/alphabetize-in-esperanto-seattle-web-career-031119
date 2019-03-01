@@ -16,6 +16,7 @@ def alphabetize(arr)
     value.each_char {|x|
       if x == "ĉ"
         hash2[key1].sub(x, 'c')
+      end
     
   
   
