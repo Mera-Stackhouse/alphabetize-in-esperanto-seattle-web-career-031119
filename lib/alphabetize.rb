@@ -42,6 +42,7 @@ def alphabetize(arr)
   sorted.each {|key, value|
     array << hash[key]
   }
+  array
 end
 
 
