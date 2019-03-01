@@ -38,25 +38,8 @@ def alphabetize(arr)
   sorted = hash2.sort_by {|key, value|
     value
   }
+  array = []
   
-  binding.pry
-  
-  
-  
-  
-  
-  # special = ["ĉ", "ĝ", "ĥ", "ŝ", "ŭ"]
-  # list = []
-  # i = 0
-  # arr.each {|word|
-  #   list[i] = word.chars
-  #   i += 1
-  # }
-  # list2 = list.sort_by {|array|
-  #   array.first
-  # }
-  # list2
-  # binding.pry
 end
 
 alphabetize(arr)
