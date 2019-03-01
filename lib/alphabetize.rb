@@ -1,7 +1,7 @@
-require "pry"
+# require "pry"
 
-arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi"]
-greetings = ["ŝĝĉĥŭĵ", "ŝĝĉĥŭĉ", "ŝĝĉĥŭĥ"]
+# arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi"]
+# greetings = ["ŝĝĉĥŭĵ", "ŝĝĉĥŭĉ", "ŝĝĉĥŭĥ"]
 
 def alphabetize(arr)
   hash = {}
@@ -42,7 +42,6 @@ def alphabetize(arr)
   sorted.each {|key, value|
     array << hash[key]
   }
-  binding.pry
 end
 
 
