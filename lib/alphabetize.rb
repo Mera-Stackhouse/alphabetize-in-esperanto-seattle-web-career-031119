@@ -34,29 +34,32 @@ def alphabetize(arr)
         hash2[key1].sub!(x, 's')
         hash2[key1].sub!(x, 's')
       end
-      if x == ""
-        hash2[key1].sub!(x, 's')
-        hash2[key1].sub!(x, 's')
+      if x == "ŭ"
+        hash2[key1].sub!(x, 'u')
+        hash2[key1].sub!(x, 'u')
       end
-  
-  
-  
-  
-  
-  
-  
-  special = ["ĉ", "ĝ", "ĥ", "ŝ", "ŭ"]
-  list = []
-  i = 0
-  arr.each {|word|
-    list[i] = word.chars
-    i += 1
+    }
   }
-  list2 = list.sort_by {|array|
-    array.first
-  }
-  list2
-  binding.pry
+  puts hash2
+  
+  
+  
+  
+  
+  
+  
+  # special = ["ĉ", "ĝ", "ĥ", "ŝ", "ŭ"]
+  # list = []
+  # i = 0
+  # arr.each {|word|
+  #   list[i] = word.chars
+  #   i += 1
+  # }
+  # list2 = list.sort_by {|array|
+  #   array.first
+  # }
+  # list2
+  # binding.pry
 end
 
 alphabetize(arr)
