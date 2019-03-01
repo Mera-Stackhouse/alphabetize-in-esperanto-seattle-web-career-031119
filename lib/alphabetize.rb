@@ -41,7 +41,7 @@ def alphabetize(arr)
       end
     }
   }
-  puts hash
+  puts hash2
   
   
   
