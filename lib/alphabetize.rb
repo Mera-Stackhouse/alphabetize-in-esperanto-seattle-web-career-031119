@@ -3,6 +3,17 @@ require "pry"
 arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi"]
 
 def alphabetize(arr)
+  hash
+  arr.each {|element|
+    hash[element] = ""
+    
+  
+  
+  
+  
+  
+  
+  
   special = ["ĉ", "ĝ", "ĥ", "ŝ", "ŭ"]
   list = []
   i = 0
