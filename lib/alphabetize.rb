@@ -39,13 +39,12 @@ def alphabetize(arr)
     value
   }
   array = []
-  
+  sorted.each {|key, value|
+    array << hash[key]
+  }
+  binding.pry
 end
 
 alphabetize(arr)
 
 
-
-# [["m", "i", " ", "a", "m", "a", "s", " ", "v", "i", "n"],
-# ["b", "o", "n", "a", "n", " ", "m", "a", "t", "e", "n", "o", "n"],
-# ["p", "a", "c", "o", "n"]]
