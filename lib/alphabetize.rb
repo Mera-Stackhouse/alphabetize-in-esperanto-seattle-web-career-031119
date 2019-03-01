@@ -15,7 +15,7 @@ def alphabetize(arr)
     key1 = key
     value.each_char {|x|
       if x == "ĉ"
-        hash2[key1].replace(x)
+        hash2[key1].sub(x)
     
   
   
