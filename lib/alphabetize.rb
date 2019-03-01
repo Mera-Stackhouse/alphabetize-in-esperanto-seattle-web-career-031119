@@ -4,11 +4,14 @@ arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi"]
 
 def alphabetize(arr)
   hash
+  i = 1
   arr.each {|element|
-    hash[element] = ""
+    hash[i] = element
+    i += 1
   }
-  hash.each {|key, value|
-    if key.include?()
+  hash2 = hash
+  hash2.each {|key, value|
+    if value
     
   
   
