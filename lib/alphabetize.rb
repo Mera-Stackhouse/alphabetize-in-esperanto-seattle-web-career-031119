@@ -6,6 +6,9 @@ def alphabetize(arr)
   hash
   arr.each {|element|
     hash[element] = ""
+  }
+  hash.each {|key, value|
+    if key.include?()
     
   
   
