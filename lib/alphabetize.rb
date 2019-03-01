@@ -34,6 +34,10 @@ def alphabetize(arr)
         hash2[key1].sub!(x, 's')
         hash2[key1].sub!(x, 's')
       end
+      if x == ""
+        hash2[key1].sub!(x, 's')
+        hash2[key1].sub!(x, 's')
+      end
   
   
   
