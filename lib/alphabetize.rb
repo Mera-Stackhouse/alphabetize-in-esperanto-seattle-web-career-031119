@@ -35,8 +35,8 @@ def alphabetize(arr)
       end
     }
   }
-  binding.pry
-  puts hash2
+  hash2.sort_by {|element|
+    element[value]
   
   
   
