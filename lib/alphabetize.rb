@@ -11,6 +11,7 @@ def alphabetize(arr)
     i += 1
   }
   hash2 = hash
+  binding.pry
   hash.each {|key, value|
     hash2[key] = value
     key1 = key
@@ -18,7 +19,6 @@ def alphabetize(arr)
       if x == "ĉ"
         hash2[key1].sub!(x, 'c')
         hash2[key1].sub!(x, 'c')
-        binding.pry
       end
       if x == "ĝ"
         hash2[key1].sub!(x, 'g')
