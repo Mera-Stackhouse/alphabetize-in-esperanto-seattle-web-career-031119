@@ -45,6 +45,5 @@ def alphabetize(arr)
   binding.pry
 end
 
-alphabetize(arr)
 
 
