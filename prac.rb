@@ -16,4 +16,4 @@
 # puts hash["hello"].empty?
 
 
-puts "ĉu vi".sub(/[ĉĝĥŝŭ]/, '*')
+puts "ĉu ĉvi".sub(/[ĉĝĥŝŭ]/, '*')
