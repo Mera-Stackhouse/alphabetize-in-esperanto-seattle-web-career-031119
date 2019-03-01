@@ -59,7 +59,7 @@ def alphabetize(arr)
   # binding.pry
 end
 
-alphabetize(greetings)
+alphabetize(arr)
 
 
 
