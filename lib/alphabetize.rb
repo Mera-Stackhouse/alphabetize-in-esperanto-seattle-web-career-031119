@@ -10,8 +10,12 @@ def alphabetize(arr)
     i += 1
   }
   hash2 = hash
-  hash2.each {|key, value|
-    if value
+  hash.each {|key, value|
+    hash2[key] = value
+    key1 = key
+    value.each_char {|x|
+      if x == "ĉ"
+        hash2[key1].replace(x)
     
   
   
