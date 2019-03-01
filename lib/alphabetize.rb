@@ -36,6 +36,7 @@ def alphabetize(arr)
       end
     }
   }
+  binding.pry
   puts hash2
   
   
