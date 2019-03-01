@@ -11,7 +11,6 @@ def alphabetize(arr)
     i += 1
   }
   hash2 = hash
-  binding.pry
   hash.each {|key, value|
     hash2[key] = value
     key1 = key
