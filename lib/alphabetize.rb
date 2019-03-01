@@ -26,8 +26,8 @@ def alphabetize(arr)
         hash2[key1].sub!(x, 'h')
         hash2[key1].sub!(x, 'h')
       end
-      if x == ""
-        hash2[key1].sub(x, 'c')
+      if x == "ĵ"
+        hash2[key1].sub!(x, 'j')
       end
       if x == "ĉ"
         hash2[key1].sub(x, 'c')
