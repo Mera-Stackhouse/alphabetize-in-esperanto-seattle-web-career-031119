@@ -17,7 +17,18 @@ def alphabetize(arr)
       if x == "ĉ"
         hash2[key1].sub(x, 'c')
       end
-    
+      if x == "ĉ"
+        hash2[key1].sub(x, 'c')
+      end
+      if x == "ĉ"
+        hash2[key1].sub(x, 'c')
+      end
+      if x == "ĉ"
+        hash2[key1].sub(x, 'c')
+      end
+      if x == "ĉ"
+        hash2[key1].sub(x, 'c')
+      end
   
   
   
