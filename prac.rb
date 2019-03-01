@@ -13,4 +13,4 @@
 
 hash = {"hello" => ""}
 
-puts hash["hello"].empty?
+puts hash["hello"].any?
