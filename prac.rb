@@ -18,5 +18,6 @@
 
 string = "ĉu ĉvi"
 
-string 2 = string.sub(/[ĉĝĥŝŭ]/, '*')
-string.sub(/[ĉĝĥŝŭ]/, '*')
+string2 = string.sub(/[ĉĝĥŝŭ]/, '*')
+string2 = string2.sub(/[ĉĝĥŝŭ]/, '*')
+puts string2
