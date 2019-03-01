@@ -39,7 +39,7 @@ def alphabetize(arr)
     value
   }
   
-  
+  binding.pry
   
   
   
